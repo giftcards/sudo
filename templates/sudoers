@@ -1,0 +1,11 @@
+##########################
+#### ** Do Not Modify **
+####
+####    == Puppet ==
+##########################
+<% @aliases.each do |command_alias| -%>
+<%= "#{command_alias}" %>
+<% end -%>
+<% @operators.each do |operator| -%>
+<%= "#{operator} #{@entry}" %>
+<% end -%>
